@@ -125,24 +125,24 @@ The document should be structured according to the following template.
 #### Abstract
 A brief overview of the area that you'll be investigating, the research question(s) of interest, your approach to analysis, and the general conclusions.
 
-### Introduction
+#### Introduction
 Overview of the setting of the data, existing theories/models, and your research questions.
 
-### The Data
+#### The Data
 Where does the data come from? How many observations? How many variables? What does each observation refer to (what is the observational unit)? What sorts of data processing was necessary to get the data in shape for analysis?
 
-### Exploratory Data Analysis
+#### Exploratory Data Analysis
 Explore the structure of the data through graphics. Here you can utilize both traditional plots as well as methods from unsupervised learning.
 
-### Modeling
+#### Modeling
 Contruct (descriptive and/or predictive) (classification and/or regression) models that address your research questions. You are encouraged to fit many different classes of models and see how they compare in terms the bias/variance tradeoff (do you have a Rashomon effect going on?). Also be sure to guard against overfitting through cross-validation or shrinkage/penalization (don't forget about ridge regression and the lasso).
 
 This will be the most extensive section and will include your results as well.
 
-### Discussion
+#### Discussion
 Review the results generated above and sythensize them in the context from which the data originated. What do the results tell your about your original research question? Are there any weaknesses that you see in your analysis? What additional questions would you explore next?
 
-### References
+#### References
 At minimum, this will contain the full citation for your data set. If you reference existing analyses, they should be cited here as well.
 
 

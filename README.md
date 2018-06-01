@@ -98,38 +98,52 @@ The course includes a total of fifteen lab sessions and two sessions reserved fo
 ### Labs (140 points)
 There are 14 labs during the course, which must be submitted to the instructor prior to the start of the following class. These labs will be scored on a "best honest effort" basis, which generally implies zero or full credit (i.e., the assignment was or was not fully completed). However, many of the labs require students complete specific portions before moving on to the next sections. If you find yourself stuck and unable to proceed, **please contact the instructor for help rather than submitting incomplete work**. Contacting the instructor is part of the "best honest effort", and can result in full credit for an assignment even if the the work is not fully complete.
 
-### DataCamp Chapters (85 points)
-DataCamp is an excellent resource to  get additional instruction and/or go more in-depth on any of the topics covered in this class. There are also some topics that we will not have the time to cover in much detail, and DataCamp can be helpful for these topics as well. However, in addition to providing supplemental support, select chapters will be assigned and scored as part of homework, at five points per chapter. A total of 17 chapters will be assigned (note that many of these chapters are very brief).
 
 ## Final Project (200 points; 43%)
-The final project in this class is a group project, requiring students use a “real world” dataset to write, essentially, a miniature manuscript, including an introduction (paragraph or two), methods, results, and discussion (again, maybe 2-3 paragraphs). Ideally, students would work with a dataset that includes variables they are interested in using beyond just this class; however, if students do not have access to data, the instructor will provide one. **Students who do not have access to data should plan to meet with the instructor as soon as possible so a dataset can be provided**. Additionally, the dataset must be able to be shared publicly, as the full project will be required to be housed on GitHub and be fully reproducible. If making your data publicly available is a problem for you, please contact the instructor as soon as possible. We can work together to either find a dataset that will work for you, or simulate a dataset that is similar to the data you'd like to work with in reality (and then all your code should work for the real dataset, but you can share the simulated data with your classmates). Students are required to work in groups of 2-4 people. The final assignment is assigned during the first class, and groups must be finalized by the end of Week 2 (at which point students who have not self-selected into groups will be randomly assigned).
+The final project in this class is a group project to develop a series of predictive models for a real world data set in order to answer a question of interest. Ideally, students would work with a dataset that includes variables they are interested in using beyond just this class; however, if students do not have access to data, the instructor will provide one. **Students who do not have access to data should plan to meet with the instructor as soon as possible so a dataset can be provided**. Additionally, the dataset must be able to be shared publicly, as the full project will be required to be housed on GitHub and be fully reproducible. If making your data publicly available is a problem for you, please contact the instructor as soon as possible. We can work together to either find a dataset that will work for you, or simulate a dataset that is similar to the data you'd like to work with in reality (and then all your code should work for the real dataset, but you can share the simulated data with your classmates). Students are required to work in groups of 2-4 people. The final assignment is assigned during the first class, and groups must be finalized by the end of Week 2 (at which point students who have not self-selected into groups will be randomly assigned).
 
 ### Outline (15 points)
-A basic outline of the final project is due at the end of Week 5. The outline should include a description of the data to be used, a discussion of what preparatory work will need to be done and how the requirements of the final project will be met. The outline is intended to be low-stakes and is primarily designed to be a means for you to obtain feedback on the feasibility of the project and areas to consider. 
+A basic outline of the final project is due at the end of Week 5. The outline should include the motivating research question, a description of the data to be used, a discussion of what preparatory work will need to be done, and an indication of the methods that will be applied. The outline is intended to be low-stakes and is primarily designed to be a means for you to obtain feedback on the feasibility of the project and areas to consider. 
 
-### Draft Data Preparation Script (25 points)
-At the end of Week 8, you must have a draft of the data preparation complete, including moving the data from its raw to tidy form and a variety of exploratory data visualizations.
-
-### Peer Review of Data Preparation Script (25 points)
-Following the submission of the data preparation scripts, you will be assigned to review your peers code. The purpose of this exercise is to learn from each other. Programming is an immensely open-ended enterprise and there are lots of winding paths that all ultimately end up at the same destination. During your peer review, you must note (a) at least three areas of strength, (b) at least one thing you learned from reviewing their script, and (c) no more than three areas for improvement. 
-
-Making your code publicly available can feel daunting. The purpose of this portion of the final project is to help us all learn from each other, not to denigrate. **Under no circumstances will negative comments be tolerated**. Any comments that could be perceived as negative, and outside the scope of the code, will result in an immediate score of zero. Be constructive in your feedback. Be kind. 
 
 ### Final Project Presentation (25 points)
-Each group will present on their final project during Week 10, which is expected to still be in progress. These presentations are expected to be informal, and emphasis what learning occurred during the project. Specifically, the presentations are to commiserate with each other about the failures and challenges experienced along the way, while also celebrating the successes. Learning R is a difficult task, and we should all take solace knowing that others are struggling along with us. The final presentation should be equal parts “journey” and substantive findings/conclusions/results. Students are expected to present for approximately 10 minutes each (20-40 minutes per group), although the time may change depending on the enrollment of the class.
+Each group will present on their final project during Week 10, which is expected to still be in progress. These presentations are expected to be informal, and emphasis what learning occurred during the project. The final presentation should be equal parts “journey” and substantive findings/conclusions/results. Students are expected to present for approximately 10 minutes each (20-40 minutes per group), although the time may change depending on the enrollment of the class.
 
 
-### Final Paper (110)
-The purpose of the final project is to allow students an opportunity to demonstrate all the skills they have learned throughout the course. The final project must (a) be a reproducible and dynamic APA manuscript produced with R Markdown, via the [*{papaja}*](https://github.com/crsh/papaja) package and include references to the extant literature; (b) demonstrate moving data from its raw “messy” format to a tidy data format through the R Markdown file, but not in the final document; (c) include at least two exploratory data visualizations, and (d) include at least summary statistics of the data in tables, although fitted models of any sort are an added bonus (not literally, there are not extra points for fitting a model). The points for the final project are broken down as follows:
+### Final Paper (110 points)
+The purpose of the final paper is to allow students an opportunity to demonstrate all the skills they have learned throughout the course. The final paper will be a reproducible and dynamic APA manuscript produced with R Markdown via the [*{papaja}*](https://github.com/crsh/papaja) package. This paper will be assessed based on the following criteria.
 
-* Writing (abstract, intro, methods, results, discussion, references): 30 points (25%)
-* Document is fully reproducible: 25 points (21%)
-* Demonstrate use of inline code: 5 points (4%)
-* Demonstrate tidying messy data: 30 points (25%)
-* Two data visualizations: 10 points each, 20 points total (17%)
-* Production of at least one table (of summary statistics or model results): 10 points (8%)
+* Writing is clear and comprehensive: (25%)
+* Document is fully reproducible: (15%)
+* At least two visualizations as part of EDA: (15%)
+* Demonstrate appropriate use of multiple predictive techniques: (25%)
+* Comparison and sythesis of results for multiple techniques: (10%)
+* Interpretations of the results in the context of the research question: (10%)
 
-More information on the final project paper will be provided during class.
+The document should be structured according to the following template.
+
+#### Abstract
+A brief overview of the area that you'll be investigating, the research question(s) of interest, your approach to analysis, and the general conclusions.
+
+### Introduction
+Overview of the setting of the data, existing theories/models, and your research questions.
+
+### The Data
+Where does the data come from? How many observations? How many variables? What does each observation refer to (what is the observational unit)? What sorts of data processing was necessary to get the data in shape for analysis?
+
+### Exploratory Data Analysis
+Explore the structure of the data through graphics. Here you can utilize both traditional plots as well as methods from unsupervised learning.
+
+### Modeling
+Contruct (descriptive and/or predictive) (classification and/or regression) models that address your research questions. You are encouraged to fit many different classes of models and see how they compare in terms the bias/variance tradeoff (do you have a Rashomon effect going on?). Also be sure to guard against overfitting through cross-validation or shrinkage/penalization (don't forget about ridge regression and the lasso).
+
+This will be the most extensive section and will include your results as well.
+
+### Discussion
+Review the results generated above and sythensize them in the context from which the data originated. What do the results tell your about your original research question? Are there any weaknesses that you see in your analysis? What additional questions would you explore next?
+
+### References
+At minimum, this will contain the full citation for your data set. If you reference existing analyses, they should be cited here as well.
 
 
 # Grading Components

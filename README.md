@@ -1,58 +1,9 @@
-## EDLD XXX: Applied Predictive Modeling (CRN: XXXXX; 3 credit hours)
-
+# Course 4: Statistical Learning
 This repository will house all the materials for the first course in the data science specialization using R, developed for the UO COE.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
-
-# Syllabus
-## EDLD XXX: Applied Predictive Modeling (CRN: XXXXX; 3 credit hours)
-* **Term:** XXX
-* **Time:** XXX
-* **Classroom:** XXX
-* **Instructor:** XXX
-	+ *email:* (preferred contact method)
-	+ *phone:* XXX
-	+ *office:* XXX
-
-
-Statistical Learning is a field that ties together statistical theory and practice
-with the methods of machine learning that have emerged in the last several decades.
-
-## Learning objectives
-
-By the end of this course students will be able to 
-
-- Describe the framework of statistical learning (i.e. supervised vs. unsupervised learning) and map a data analytical question to a location in this framework.
-- Outline the different capabilities of statistical learning models  (predictive, inferential, descriptive/explorative) and be able to discern which is needed in a particular scenario.
-- Discuss the bias-variance tradeoff in supervised learning and apply the concept in making decisions about model selection.
-- Apply tools of cross validation and regularization to guard against overfitting a model.
-- Construct a supervised learning model drawn from the following list of methods. For each method, they will be able to link the research question to appropriate methods, understand the principles at work in each method, implement the method in R, and interpret the output and how it bears on the research question.
-    - Supervised Learning:
-        - Linear regression
-        - Penalized regression (ridge, lasso)
-        - CART
-        - Random Forests
-        - Boosted Trees
-    - Classifiation:
-        - Logistic regression
-        - Discriminant analysis
-        - k-Nearest Neighbor
-        - CART
-        - Random Forests
-- Apply multiple regression techniques to a real data set and evaluate/synthesize the results is a sytematic manner.
-- Apply multiple classification techniques to a real data set and evaluate/synthesize the results in a systematic manner.
-- Recognize when a data set might benefit from a dimension reduction technique, implement that technique, and interpret the output.
-- Implement clustering techniques (k-means, hierarchical clustering), describe the similarities and differences in their approach, and use a scree plot to discern the scale of clustering.
-
-
-************************************************************************************************************
-
-# Course 1: Applied Predictive Modeling
-This repository will house all the materials for the first course in the data science specialization using R, developed for the UO COE.
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
+* * *
 
 # Syllabus
 ## EDLD XXX: Statistical Learning (CRN: XXXXX; 3 credit hours)
@@ -69,8 +20,6 @@ This repository will house all the materials for the first course in the data sc
 This is the fourth course in a five course *data science in educational research* specialization. Statistical learning is a field that ties together statistical theory and practice with the methods of machine learning that have emerged in the last several decades. The primary goal of these methods is to create models capable of prediction.
 
 # Student Learning Objectives
-By the end of this course, students should be able to:
-
 By the end of this course students will be able to 
 
 - Describe the framework of statistical learning (i.e. supervised vs. unsupervised learning) and map a data analytical question to a location in this framework.
@@ -102,34 +51,12 @@ All course readings are freely available online or will be provided by the instr
 - James, Gareth et. al. (2017). *[An Introduction to Statistical Learning with R](http://www-bcf.usc.edu/~gareth/ISL/)*. New York, NY: Springer.
 
 ### Books (not required, but possibly helpful)
-* Diez, D and Barr, C and Cetinkaya-Rundel, M (2014). *[OpenIntro Introductory Statistics with Randomization and Simulation](https://www.openintro.org/stat/textbook.php?stat_book=isrs).
+* Diez, D and Barr, C and Cetinkaya-Rundel, M (2014). *[OpenIntro Introductory Statistics with Randomization and Simulation](https://www.openintro.org/stat/textbook.php?stat_book=isrs)*.
 * Hastie, T et. al. (2009). *[Elements of Statistical Learning](http://web.stanford.edu/~hastie/ElemStatLearn/)*. New York, NY: Springer.
 
 ### Resources
 #### [DataCamp](https://www.datacamp.com)
 We will have a class subscription to [DataCamp](https://www.datacamp.com). This means all the courses they offer (which is a lot) are available to you. I encourage you to explore the website and play around. There are **far more** topics covered by DataCamp than we will cover in this course or this five-course specialization. 
-
-### Blog posts, etc. <font color="red">(NEEDS WORK)</font>
-* Visualizing Distributions <font color="red">(Link is Broken)</font> http://cslu.ohsu.edu/~bedricks/courses/cs631/files/labs/lab4/04-lab.html
-* Visualizing High Dimensions <font color="red">(Link is Broken)</font> http://cslu.ohsu.edu/~bedricks/courses/cs631/files/labs/lab8/08-lab.html
-
-### Helpful People/Groups
-Twitter can be a great place to make connections and learn about new things. If you're not on twitter I would recommend creating an account just so you can follow people. Below is a small list of people I would recommend following to help you learn R and data science.
-
-* [Mara Averick](https://twitter.com/dataandme)
-* [R4DS online learning community](https://twitter.com/R4DScommunity)
-* [Hadley Wickham](https://twitter.com/hadleywickham)
-* [Jenny Bryan](https://twitter.com/JennyBryan)
-* [Jesse Maegan](https://twitter.com/kierisi)
-* [Claus Wilke](https://twitter.com/ClausWilke)
-* [Maëlle Salmon](https://twitter.com/ma_salmon)
-* [Colin Fay](https://twitter.com/_ColinFay)
-* [David Robinson](https://twitter.com/drob?lang=en)
-* [Julia Silge](https://twitter.com/juliasilge)
-* [Alison Hill](https://twitter.com/apreshill)
-* [Chester Ismay](https://twitter.com/old_man_chester)
-
-The last two on this list helped design the content for this course and the specialization as a whole, along with [Andrew Bray](https://andrewpbray.github.io) (and are wonderful, amazing people that happen to also be good twitter follows). This list is not intended to be comprehensive in the slightest. There are plenty of other great follows out there that I left off. I tried to focus on people who are active and share lots of good resources.
 
 # Weekly Schedule (Topics, Assignments, and Readings)
 
@@ -164,7 +91,7 @@ The stat learning schedule can be found [here](https://docs.google.com/spreadshe
 As outlined in the table above, most class meetings will include a lab. All labs will also count toward homework assignments, with roughly half the assignment completed during lab, and the other half completed out of class. The DataCamp platform will also be used for additional homework assignments, and the course will conclude with a final project. More detail about each is provided below.
 
 ## Attendance (40 points; 8%)
-The course includes a total of fourteen lab sessions, plus three work days. Of the three sessions that do not include lab, two will be reserved for final project presentation. A critical component of learning data science includes receiving structured feedback as you problem-solve coding and data issues. Supporting your classmates is also important, and so attendance during final presentations is also mandatory. Attendance at each class session contributes toward your grade at five points per day, for a total of 40 points.
+The course includes a total of fifteen lab sessions and two sessions reserved for final project presentation. A critical component of learning data science includes receiving structured feedback as you problem-solve coding and data issues. Supporting your classmates is also important, and so attendance during final presentations is also mandatory. Attendance at each class session contributes toward your grade at five points per day, for a total of 40 points.
 
 ## Homework (225 points; 48%)
 

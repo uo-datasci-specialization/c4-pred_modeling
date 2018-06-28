@@ -94,10 +94,10 @@ We will have a class subscription to [DataCamp](https://www.datacamp.com). This 
 A critical component of learning data science includes receiving structured feedback as you problem-solve coding and data issues. Each lab will be introduced and begun in class, so that as a group we can talk through the task at hand. Supporting your classmates is also important, and so attendance during final presentations is mandatory.
 
 ### Problem Sets (20%)
-The problem sets allow you to think through the concepts introduced in class and through the reading. Most are short answer, some require mathematics and coding.
+The problem sets allow you to think through the concepts introduced in class and through the reading. Most are short answer and some require mathematics and coding.
 
 ### Labs (30%)
-There are 7 labs during the course, which must be submitted to the instructor prior to the start of the following class. These labs will be scored on a "best honest effort" basis, which generally implies zero or full credit (i.e., the assignment was or was not fully completed). However, many of the labs require students complete specific portions before moving on to the next sections. If you find yourself stuck and unable to proceed, **please contact the instructor for help rather than submitting incomplete work**. Contacting the instructor is part of the "best honest effort", and can result in full credit for an assignment even if the the work is not fully complete.
+There are 7 computational labs during the course, which will be started in class in finished outside of class. These labs will be scored on a "best honest effort" basis, which generally implies zero or full credit (i.e., the assignment was or was not fully completed). If you find yourself stuck and unable to proceed, **please contact the instructor for help rather than submitting incomplete work**. Contacting the instructor is part of the "best honest effort", and can result in full credit for an assignment even if the the work is not fully complete.
 
 
 ## Final Project

@@ -53,64 +53,65 @@ All course readings are freely available online or will be provided by the instr
 ### Books (not required, but possibly helpful)
 * Diez, D and Barr, C and Cetinkaya-Rundel, M (2014). *[OpenIntro Introductory Statistics with Randomization and Simulation](https://www.openintro.org/stat/textbook.php?stat_book=isrs)*.
 * Hastie, T et. al. (2009). *[Elements of Statistical Learning](http://web.stanford.edu/~hastie/ElemStatLearn/)*. New York, NY: Springer.
+* Kuhn, M and Johnson, Kjell (2014). *[Applied Predictive Modeling in R](http://appliedpredictivemodeling.com/user2014/)*, New York, NY: Springer.
 
 ### Resources
 #### [DataCamp](https://www.datacamp.com)
-We will have a class subscription to [DataCamp](https://www.datacamp.com). This means all the courses they offer (which is a lot) are available to you. I encourage you to explore the website and play around. There are **far more** topics covered by DataCamp than we will cover in this course or this five-course specialization. 
+We will have a class subscription to [DataCamp](https://www.datacamp.com). This means all the courses they offer (which is a lot) are available to you. I encourage you to explore the website and play around.
 
 # Weekly Schedule (Topics, Assignments, and Readings)
 
-The stat learning schedule can be found [here](https://docs.google.com/spreadsheets/d/1mmva5zPsmcR6OHp2m27ZB5Ys-0IPAlDqaVexEXt_UgM/edit?usp=sharing) to be ported over in the markdown table as is shown below for course 1.
 
-| **Week** | **Theme**                                      | **Topics**                                                                                                              | **Lab**                                                                                           | **Assignment Assigned**                                            | **Assignment Due**                                                      | **Reading**                                                                             |
-| :--------| :--------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------- | :---------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- |
-| 1a       | Introduction to the course and getting started | Oh the places you'll go! An overview of the course and (some of) the R ecosystem                                        |                                                                                                   | Intro to Tidyverse DC 1 & 2<br/>RStudio IDE DC 1<br/>Final Project |                                                                         | MD 2<br/>R4DS 4                                                                         |
-| 1b       |                                                | The Data Science Pipeline, Intro to GitHub, and getting your computer ready                                             | Getting ready, Intro to R and R Studio                                                            | Lab<br/>RStudio IDE DC 3                                           | Intro to Tidyverse DC 1 & 2<br/>RStudio IDE DC 1                        | MD 1.1<br/>R4DS 6                                                                       |
-| 2a       | Introduction to data visualization             | Data visualization with ggplot2; Grammar of Graphics                                                                    | Scatterplots with smooths, line plots                                                             | Lab<br/>Intro to Tidyverse DC 3                                    | RStudio IDE DC 3<br/>Final Project Groups Finalized                     | MD 3.1-3.4<br/>R4DS 3.1-3.6                                                             |
-| 2b       |                                                | More data vis basics with ggplot2                                                                                       | histograms, boxplots, barplots                                                                    | Lab<br/>Intro to Tidyverse DC 4                                    | Intro to Tidyverse DC 3<br/>Lab (Scatterplots with smooths, line plots) | MD 3.5-3.9<br/>R4DS 3.7-3.10<br/>Healy 3                                                |
-| 3a       | Basic data wrangling                           | Data wrangling with dplyr (skimr, ggplot2 with summarized data) <br/>R Sudio Projects<br/>Importing flat files with rio | import different data types<br/>skimr<br/>group_by %>% summarize                                  | Lab                                                                | <br/>Lab (histograms, boxplots, barplots)<br/>Intro to Tidyverse DC 4   | MD 5.1-5.7<br/>R4DS 8<br/>rio vignette (skim)                                           |
-| 3b       |                                                | More data wrangling with dplyr                                                                                          | The lesser known stars of dplyr                                                                   | Lab                                                                | Lab (importing, skimming, and summarizing)                              | R4DS 5<br/>MD 5.9                                                                       |
-| 4a       | Dynamic and reproducible documents             | Intro to R Markdown <br/>Workflow advice (here::here)                                                                   | Put your scripts into an Rmd <br/>(one complete knitted file)                                     | <br/>Lab<br/>R Markdown DC 1-3                                     | <br/>Lab (The lesser known stars of dplyr)                              | R4DS 27<br/>Bryan 4-8 (9 optional), 13<br/>https://github.com/jennybc/here_here         |
-| 4b       |                                                | GitHub                                                                                                                  | Push Rmd + project to GitHub<br/>Case study with dplyr & ggplot2 in Rmd/github_document on GitHub | Lab                                                                | R Markdown DC 1-3<br/>Lab (RMD Script)                                  | Bryan 19, 23-28                                                                         |
-| 5a       | Dynamic and reproducible APA manuscripts       | Intro to the papaja package                                                                                             | Transform your prior Rmd to an APA Doc                                                            | Lab                                                                | <br/>Lab (Push Rmd + project to GitHub)                                 | Aust & Barth: 2                                                                         |
-| 5b       |                                                | Citations, equations, and formatting concerns                                                                           | Prettifying your APA doc                                                                          | Lab<br/>Hill DC 1 & 2                                              | Final Project Outline<br/>Lab (Transform your prior Rmd to an APA Doc)  | Aust & Barth: 3-4                                                                       |
-| 6a       | Tidy data 1                                    | Taming and tidying data                                                                                                 | Hill DC 3                                                                                         | Lab                                                                | Hill DC 1 & 2<br/>LAB (Prettifying your doc)                            | R4DS12<br/>Wickham (2014): http://www.jstatsoft.org/v59/i10/paper<br/>MD 4.1 - 4.2; 4.4 |
-| 6b       |                                                | Taming variables                                                                                                        | Hill DC 4                                                                                         | Lab<br/>erob DC 1-3                                                | <br/>Lab (Hill DC 3)                                                    | R4DS 14, 16                                                                             |
-| 7a       | Taming unwieldy variables                      | Taming variables (Part 2)                                                                                               | erob DC 4                                                                                         | Lab                                                                | Lab (Hill DC 4)<br/>erob DC (Ch 1-3)                                    | R4DS 15                                                                                 |
-| 7b       |                                                | Work day: (import + tame + tidy)                                                                                        |                                                                                                   |                                                                    | Lab (erob DC 4)                                                         |                                                                                         |
-| 8a       | Exploratory data analysis                      | Exploratory data analysis / Review dplyr & ggplot2                                                                      | EDA case study                                                                                    | Lab                                                                |                                                                         | R4DS 7                                                                                  |
-| 8b       |                                                | Work day                                                                                                                |                                                                                                   | <br/>                                                              | <br/>EDA case study<br/>Final Project Data Script Draft                 |                                                                                         |
-| 9a       | Review and work week                           | RMD slides, review, and more GitHub                                                                                     | Publish slides in GH                                                                              | Lab                                                                |                                                                         |                                                                                         |
-| 9b       |                                                | Looking forward to Course 2 & Work Day                                                                                  |                                                                                                   |                                                                    | **Publish slides in GH<br/>Peer Review Final Project Data Script**      |                                                                                         |
-| 10a      | Final Presentations                            | Student Presentations 1                                                                                                 |                                                                                                   |                                                                    | **Final project slides (published)**                                    |                                                                                         |
-| 10b      |                                                | Student Presentations 2                                                                                                 |                                                                                                   |                                                                    |                                                                         |                                                                                         |
-| 11       | No class: Final papers due                     |                                                                                                                         |                                                                                                   |                                                                    | **Final Project**                                                       |                                                                                         |
+|  **Week** | **Theme** | **Topics** | **Lab** | **PS Assigned** | **PS Due** | **Reading** |
+|  ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|  1a | Foundations of Statistical Learning | Guess my age: human vs statistical learning |  | PS1 |  | ISLR 1-16 |
+|  1b |  | Estimating f, Bias-Variance Tradeoff | Lab 1 |  | PS1 | ISLR 29-36 |
+|  2a | Linear Regression | Simulation and Decomposition, estimation and inference for SLR |  | PS2 |  | ISLR 59-68 |
+|  2b |  | Extending the linear model I: adding variables, polynomial, interactions, assessing fit. | Lab 2 |  |  | ISLR 69-74, 79-96 |
+|  3a |  | Extending the linear model II: diagnostics, outliers, transformations, multicollinearity | Lab 3 |  | PS2 | ISLR 96-104 |
+|  3b |  | Review regression competition, model selection, penalized regression |  |  |  | ISLR 203-228 |
+|  4a | Classification | Logistic regression |  |  |  | ISLR 127-138 |
+|  4b |  | Discriminant analysis (LDA, QDA) |  | PS3 |  | ISLR 138-142 |
+|  5a |  | Classification errors, ROC | Lab 4 |  | PS4 | ISLR 142-154 |
+|  5b | Resampling Methods | Crossvalidation (validation set, LOOCV, k-fold) |  |  |  | ISLR 175-186 |
+|  6a |  | Bootstrap | Lab 5 |  |  | ISLR 187-197 |
+|  6b | Trees | Regression and classification trees |  |  |  | ISLR 303-316 |
+|  7a |  | Bagging, random forests |  | PS 5 |  | ISLR 316-321 |
+|  7b |  | Boosting | Lab 6 |   | PS 5 | ISLR 316-324 |
+|  8a | Dimension Reduction | Principle component analysis fundamentals |  |  |  | ISLR 374-385 |
+|  8b |  | Principle component analysis image reconstruction |  |  |  |  |
+|  9a | Clustering | k-means clustering, hierarchical clustering | Lab 7 |  |  | ISLR 404-413 |
+|  9b | Special Topics | Support vector machines |  | PS6 |  | ISLR 337-355 |
+|  10a | Final Presentations | Student presentations day 1 |  |  | PS6 |  |
+|  10b |  | Student presentations day 2 |  |  |  |  |
+|  11 | No class: Final papers due |  |  |  |  |  |
+
+* * *
+
+# Assessment
+
+### Attendance (10%)
+A critical component of learning data science includes receiving structured feedback as you problem-solve coding and data issues. Each lab will be introduced and begun in class, so that as a group we can talk through the task at hand. Supporting your classmates is also important, and so attendance during final presentations is mandatory.
+
+### Problem Sets (20%)
+The problem sets allow you to think through the concepts introduced in class and through the reading. Most are short answer, some require mathematics and coding.
+
+### Labs (30%)
+There are 7 labs during the course, which must be submitted to the instructor prior to the start of the following class. These labs will be scored on a "best honest effort" basis, which generally implies zero or full credit (i.e., the assignment was or was not fully completed). However, many of the labs require students complete specific portions before moving on to the next sections. If you find yourself stuck and unable to proceed, **please contact the instructor for help rather than submitting incomplete work**. Contacting the instructor is part of the "best honest effort", and can result in full credit for an assignment even if the the work is not fully complete.
 
 
-# Assignments 
-As outlined in the table above, most class meetings will include a lab. All labs will also count toward homework assignments, with roughly half the assignment completed during lab, and the other half completed out of class. The DataCamp platform will also be used for additional homework assignments, and the course will conclude with a final project. More detail about each is provided below.
-
-## Attendance (40 points; 8%)
-The course includes a total of fifteen lab sessions and two sessions reserved for final project presentation. A critical component of learning data science includes receiving structured feedback as you problem-solve coding and data issues. Supporting your classmates is also important, and so attendance during final presentations is also mandatory. Attendance at each class session contributes toward your grade at five points per day, for a total of 40 points.
-
-## Homework (225 points; 48%)
-
-### Labs (140 points)
-There are 14 labs during the course, which must be submitted to the instructor prior to the start of the following class. These labs will be scored on a "best honest effort" basis, which generally implies zero or full credit (i.e., the assignment was or was not fully completed). However, many of the labs require students complete specific portions before moving on to the next sections. If you find yourself stuck and unable to proceed, **please contact the instructor for help rather than submitting incomplete work**. Contacting the instructor is part of the "best honest effort", and can result in full credit for an assignment even if the the work is not fully complete.
-
-
-## Final Project (200 points; 43%)
+## Final Project
 The final project in this class is a group project to develop a series of predictive models for a real world data set in order to answer a question of interest. Ideally, students would work with a dataset that includes variables they are interested in using beyond just this class; however, if students do not have access to data, the instructor will provide one. **Students who do not have access to data should plan to meet with the instructor as soon as possible so a dataset can be provided**. Additionally, the dataset must be able to be shared publicly, as the full project will be required to be housed on GitHub and be fully reproducible. If making your data publicly available is a problem for you, please contact the instructor as soon as possible. We can work together to either find a dataset that will work for you, or simulate a dataset that is similar to the data you'd like to work with in reality (and then all your code should work for the real dataset, but you can share the simulated data with your classmates). Students are required to work in groups of 2-4 people. The final assignment is assigned during the first class, and groups must be finalized by the end of Week 2 (at which point students who have not self-selected into groups will be randomly assigned).
 
-### Outline (15 points)
+### Outline (5%)
 A basic outline of the final project is due at the end of Week 5. The outline should include the motivating research question, a description of the data to be used, a discussion of what preparatory work will need to be done, and an indication of the methods that will be applied. The outline is intended to be low-stakes and is primarily designed to be a means for you to obtain feedback on the feasibility of the project and areas to consider. 
 
 
-### Final Project Presentation (25 points)
+### Final Project Presentation (10%)
 Each group will present on their final project during Week 10, which is expected to still be in progress. These presentations are expected to be informal, and emphasis what learning occurred during the project. The final presentation should be equal parts “journey” and substantive findings/conclusions/results. Students are expected to present for approximately 10 minutes each (20-40 minutes per group), although the time may change depending on the enrollment of the class.
 
 
-### Final Paper (110 points)
+### Final Paper (25%)
 The purpose of the final paper is to allow students an opportunity to demonstrate all the skills they have learned throughout the course. The final paper will be a reproducible and dynamic APA manuscript produced with R Markdown via the [*{papaja}*](https://github.com/crsh/papaja) package. This paper will be assessed based on the following criteria.
 
 * Writing is clear and comprehensive: (25%)
@@ -135,7 +136,7 @@ Where does the data come from? How many observations? How many variables? What d
 Explore the structure of the data through graphics. Here you can utilize both traditional plots as well as methods from unsupervised learning.
 
 #### Modeling
-Contruct (descriptive and/or predictive) (classification and/or regression) models that address your research questions. You are encouraged to fit many different classes of models and see how they compare in terms the bias/variance tradeoff (do you have a Rashomon effect going on?). Also be sure to guard against overfitting through cross-validation or shrinkage/penalization (don't forget about ridge regression and the lasso).
+Construct (descriptive and/or predictive) (classification and/or regression) models that address your research questions. You are encouraged to fit many different classes of models and see how they compare in terms the bias/variance tradeoff (do you have a Rashomon effect going on?). Also be sure to guard against overfitting through cross-validation or shrinkage/penalization (don't forget about ridge regression and the lasso).
 
 This will be the most extensive section and will include your results as well.
 
@@ -167,8 +168,8 @@ Graduate: 1 credit hour = 40 hours of student engagement (3 credit hours = 120 h
 | :----------------------- | :-----------------------: | :--------------------------------------------------------------------------------------------------------------- |
 | Course attendance        |            26.5             | 20 meetings, at 80 minutes per meeting                                                                           |
 | Assigned readings        |            27             | Weekly readings are assigned, and are expected to take roughly as long to complete as the in-seat time per week. |
-| Projects                 |            30             | Final project, as described above                                                                                |
-| Homeworks                |            36.5           | 14 Labs, at approximately two hours per lab spent out of class (28 hours), plus 17 DataCamp chapters, at approximately 0.5 hours per chapter |
+| Projects                 |            33.5             | Final project, as described above                                                                                |
+| Homeworks                |            33           | 7 labs, at approximately 3 hours per lab spent out of class (21 hours), plus 6 problem sets, at approximately 2 hours each (12 hours) |
 | Total hours:             |            120            |                                                                                                                  |
 
 # Attendance and Absence Guidelines
